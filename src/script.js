@@ -27,4 +27,10 @@ readMBtns.forEach((readBtn) => {
   });
 });
 closeCardBtn.addEventListener("click", closeCard);
+addEventListener("keydown", (e) => {
+  let closeKey = e.key;
+  if (closeKey === "Escape") {
+    closeCard();
+  }
+});
 // shdowOverlay.addEventListener("click", closeCard);
