@@ -13,15 +13,18 @@ body {
   height: 100vh;
   justify-content: center;
   position: relative;
+  z-index: 3;
 }
 
 .header .shdow-Overlay {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(70, 70, 70, 0.144);
+  background-color: rgba(15, 15, 15, 0.267);
   top: 0;
   left: 0;
+  z-index: 4;
+  filter: blur(3px);
 }
 
 .header .header-Wrap {
