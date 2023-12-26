@@ -40,4 +40,16 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
+
+  .card-Box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: rgb(61, 59, 59);
+    width: 360px;
+    border-radius: 1rem;
+    height: 360px;
+  }
 }
