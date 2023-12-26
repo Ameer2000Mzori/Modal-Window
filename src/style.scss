@@ -75,6 +75,16 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+
+      .card-Title {
+        font-family: $fontTwo;
+        font-size: 1.5rem;
+      }
+
+      .card-Text-1 {
+        font-family: $fontOne;
+        font-weight: 500;
+      }
     }
   }
 }

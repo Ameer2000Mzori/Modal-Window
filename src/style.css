@@ -75,3 +75,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.header .card-Box .text-Card-Wrap .card-Title {
+  font-family: "Black Ops One", cursive;
+  font-size: 1.5rem;
+}
+
+.header .card-Box .text-Card-Wrap .card-Text-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
