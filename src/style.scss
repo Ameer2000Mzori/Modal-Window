@@ -25,8 +25,8 @@ body {
     background-color: rgba(15, 15, 15, 0.267);
     top: 0;
     left: 0;
-    z-index: 4;
-    filter: blur(1px);
+    z-index: 6;
+    filter: blur(2px);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -36,10 +36,13 @@ body {
 
   .shdow-Overlay.active {
     filter: blur(0);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
   }
 
   .header-Wrap {
-    z-index: 5;
+    z-index: 3;
     height: 90%;
     width: 90%;
     display: flex;
