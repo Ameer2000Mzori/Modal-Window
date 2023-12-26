@@ -47,7 +47,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    background-color: rgb(61, 59, 59);
+    background-color: aliceblue;
+    filter: drop-shadow(0 0 10px black);
     width: 360px;
     border-radius: 1rem;
     height: 360px;
