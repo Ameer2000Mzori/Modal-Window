@@ -65,5 +65,15 @@ body {
       align-items: end;
       justify-content: center;
     }
+
+    .text-Card-Wrap {
+      height: 80%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
