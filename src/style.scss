@@ -26,11 +26,19 @@ body {
     top: 0;
     left: 0;
     z-index: 4;
-    filter: blur(3px);
+    filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shdow-Overlay.active {
+    filter: blur(0);
   }
 
   .header-Wrap {
-    position: relative;
     z-index: 5;
     height: 90%;
     width: 90%;
@@ -86,5 +94,9 @@ body {
         font-weight: 500;
       }
     }
+  }
+
+  .card-Box.active {
+    display: none;
   }
 }

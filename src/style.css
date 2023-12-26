@@ -24,11 +24,19 @@ body {
   top: 0;
   left: 0;
   z-index: 4;
-  filter: blur(3px);
+  filter: blur(1px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .shdow-Overlay.active {
+  filter: blur(0);
 }
 
 .header .header-Wrap {
-  position: relative;
   z-index: 5;
   height: 90%;
   width: 90%;
@@ -84,4 +92,8 @@ body {
 .header .card-Box .text-Card-Wrap .card-Text-1 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+
+.header .card-Box.active {
+  display: none;
 }
