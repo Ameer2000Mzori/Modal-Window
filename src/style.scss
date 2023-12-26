@@ -22,16 +22,16 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(15, 15, 15, 0.267);
     top: 0;
     left: 0;
     z-index: 6;
-    filter: blur(2px);
+    filter: blur(3px);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: rgba(5, 5, 5, 0.486);
   }
 
   .shdow-Overlay.active {
@@ -39,10 +39,11 @@ body {
     height: 100%;
     width: 100%;
     z-index: -1;
+    background-color: rgba(163, 161, 161, 0.486);
   }
 
   .header-Wrap {
-    z-index: 3;
+    z-index: 5;
     height: 90%;
     width: 90%;
     display: flex;
@@ -50,6 +51,12 @@ body {
     text-align: center;
     align-items: center;
     justify-content: flex-start;
+    position: relative;
+
+    .buttons-Wrap {
+      z-index: 15;
+      position: relative;
+    }
   }
 
   .card-Box {

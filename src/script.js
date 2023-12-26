@@ -33,4 +33,3 @@ addEventListener("keydown", (e) => {
     closeCard();
   }
 });
-// shdowOverlay.addEventListener("click", closeCard);
