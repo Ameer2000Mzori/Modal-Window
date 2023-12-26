@@ -32,6 +32,23 @@ body {
   background-color: rgba(238, 234, 234, 0.336);
 }
 
+.header .shdow-Overlay .shadow-Overlay-Clicker {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+}
+
+.header .shdow-Overlay .shadow-Overlay-Clicker.active {
+  z-index: 16;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 .header .shdow-Overlay.active {
   filter: blur(0);
   height: 100%;
